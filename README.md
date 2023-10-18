@@ -4,9 +4,6 @@ Welcome to the repository of online pizzeria! This application is a web-based pi
 
 [Live Demo](https://pizza-eight-sandy.vercel.app/)
 
-## Project Description.
- This project is designed to create and manage a task list. Users can add, edit, delete, and mark tasks as completed
-
 ## 🚀 Technologies
 
 - **ReactJS 18**: The backbone of our application's frontend.
