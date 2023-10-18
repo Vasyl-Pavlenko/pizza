@@ -1,0 +1,32 @@
+@import '../../scss/variables';
+
+.Loader {
+  margin: 100px auto 0;
+  width: 50px;
+  height: 50px;
+  border: 8px solid $gray-line;
+  border-top-color: $orange;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+
+  &--dark {
+    border-color: $black;
+    border-top-color: $background;
+  }
+
+  @media (min-width: 768px) {
+    width: 80px;
+    height: 80px;
+    border-width: 12px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
